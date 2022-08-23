@@ -1,0 +1,17 @@
+<aiml version="1.0">
+
+<category>
+    <pattern> HELLO </petter>
+    <template>
+        <random>
+            <li>Hello</li>
+            <li>Hello<get name = "username"/></li>
+            <li>Hi</li>
+            <li>Hi<get name = "username"/></li>
+            <li>Hola como estas?</li>
+            <li>Howdy partner</li>
+            <li>Hey there, what can do for you on this fine day?</li>
+            <li>Hey there <get name = "username"/>, what can do for you on this fine day?</li>
+        </random>
+    </template>
+</category>
